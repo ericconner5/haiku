@@ -1,0 +1,39 @@
+body {
+  background-color: wheat;
+}
+.container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+textarea {
+  resize: none;
+  flex-basis: 55%;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1, ::placeholder {
+  color: grey;
+  text-align: center;
+}
+
+span {
+  margin-top: 3em;
+}
+
+button {
+  flex-basis: 25%;
+}
+
+p {
+  margin: auto;
+}
